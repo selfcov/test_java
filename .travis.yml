@@ -1,5 +1,9 @@
 language: java
 
+jdk:
+  - openjdk7
+  - oraclejdk7
+
 script:
   - javac show_env.java
   - java ShowEnv
