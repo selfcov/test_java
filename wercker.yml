@@ -1,0 +1,7 @@
+box: java
+
+build:
+  steps:
+    - script:
+        name: Print
+        code: javac show_env.java; java ShowEnv

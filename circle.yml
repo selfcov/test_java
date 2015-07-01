@@ -1,0 +1,3 @@
+test:
+  override:
+    - javac show_env.java; java ShowEnv

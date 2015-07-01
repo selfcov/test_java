@@ -1,0 +1,5 @@
+build_script:
+  - javac show_env.java
+
+test_script:
+  - java ShowEnv
